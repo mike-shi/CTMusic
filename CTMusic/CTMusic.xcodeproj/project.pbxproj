@@ -10,19 +10,12 @@
 		03555C116A4ABA0CC4F47476 /* Pods_CTMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAD702F64B75866EBC4DD5D /* Pods_CTMusic.framework */; };
 		7D87900220A9C69C00B01907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FEF20A9C69C00B01907 /* ViewController.swift */; };
 		7D87900320A9C69C00B01907 /* clouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FF020A9C69C00B01907 /* clouseViewController.swift */; };
-		7D87900420A9C69C00B01907 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FF120A9C69C00B01907 /* PDFViewController.swift */; };
-		7D87900520A9C69C00B01907 /* CMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FF220A9C69C00B01907 /* CMInputView.m */; };
 		7D87900620A9C69C00B01907 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FF320A9C69C00B01907 /* PushViewController.swift */; };
-		7D87900720A9C69C00B01907 /* PDFPreviewVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF520A9C69C00B01907 /* PDFPreviewVC.storyboard */; };
 		7D87900820A9C69C00B01907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF620A9C69C00B01907 /* Assets.xcassets */; };
 		7D87900920A9C69C00B01907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF720A9C69C00B01907 /* LaunchScreen.storyboard */; };
 		7D87900A20A9C69C00B01907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF920A9C69C00B01907 /* Main.storyboard */; };
-		7D87900B20A9C69C00B01907 /* ChooseTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FFB20A9C69C00B01907 /* ChooseTypeView.swift */; };
-		7D87900C20A9C69C00B01907 /* ChooseTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FFC20A9C69C00B01907 /* ChooseTypeView.xib */; };
 		7D87900D20A9C69C00B01907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FFD20A9C69C00B01907 /* AppDelegate.swift */; };
-		7D87900E20A9C69C00B01907 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FFE20A9C69C00B01907 /* myView.m */; };
 		7D87900F20A9C69C00B01907 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D87900020A9C69C00B01907 /* Info.plist */; };
-		7D87901020A9C69C00B01907 /* PDFPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87900120A9C69C00B01907 /* PDFPreviewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,21 +24,12 @@
 		7D4B105D1EF77D8B009FA4F2 /* CTMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D878FEF20A9C69C00B01907 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D878FF020A9C69C00B01907 /* clouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clouseViewController.swift; sourceTree = "<group>"; };
-		7D878FF120A9C69C00B01907 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
-		7D878FF220A9C69C00B01907 /* CMInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMInputView.m; sourceTree = "<group>"; };
 		7D878FF320A9C69C00B01907 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
-		7D878FF420A9C69C00B01907 /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
-		7D878FF520A9C69C00B01907 /* PDFPreviewVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PDFPreviewVC.storyboard; sourceTree = "<group>"; };
 		7D878FF620A9C69C00B01907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D878FF820A9C69C00B01907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D878FFA20A9C69C00B01907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7D878FFB20A9C69C00B01907 /* ChooseTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseTypeView.swift; sourceTree = "<group>"; };
-		7D878FFC20A9C69C00B01907 /* ChooseTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseTypeView.xib; sourceTree = "<group>"; };
 		7D878FFD20A9C69C00B01907 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D878FFE20A9C69C00B01907 /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
-		7D878FFF20A9C69C00B01907 /* CMInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMInputView.h; sourceTree = "<group>"; };
 		7D87900020A9C69C00B01907 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D87900120A9C69C00B01907 /* PDFPreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPreviewVC.swift; sourceTree = "<group>"; };
 		8E727831D313907FE686D98C /* Pods_swiftMethordTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftMethordTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C3BB5D3734D014B2676AF6 /* Pods-CTMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTMusic/Pods-CTMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		EDAD702F64B75866EBC4DD5D /* Pods_CTMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,21 +80,12 @@
 			children = (
 				7D878FEF20A9C69C00B01907 /* ViewController.swift */,
 				7D878FF020A9C69C00B01907 /* clouseViewController.swift */,
-				7D878FF120A9C69C00B01907 /* PDFViewController.swift */,
-				7D878FF220A9C69C00B01907 /* CMInputView.m */,
 				7D878FF320A9C69C00B01907 /* PushViewController.swift */,
-				7D878FF420A9C69C00B01907 /* myView.h */,
-				7D878FF520A9C69C00B01907 /* PDFPreviewVC.storyboard */,
 				7D878FF620A9C69C00B01907 /* Assets.xcassets */,
 				7D878FF720A9C69C00B01907 /* LaunchScreen.storyboard */,
 				7D878FF920A9C69C00B01907 /* Main.storyboard */,
-				7D878FFB20A9C69C00B01907 /* ChooseTypeView.swift */,
-				7D878FFC20A9C69C00B01907 /* ChooseTypeView.xib */,
 				7D878FFD20A9C69C00B01907 /* AppDelegate.swift */,
-				7D878FFE20A9C69C00B01907 /* myView.m */,
-				7D878FFF20A9C69C00B01907 /* CMInputView.h */,
 				7D87900020A9C69C00B01907 /* Info.plist */,
-				7D87900120A9C69C00B01907 /* PDFPreviewVC.swift */,
 			);
 			path = CTMusic;
 			sourceTree = "<group>";
@@ -192,8 +167,6 @@
 				7D87900920A9C69C00B01907 /* LaunchScreen.storyboard in Resources */,
 				7D87900820A9C69C00B01907 /* Assets.xcassets in Resources */,
 				7D87900F20A9C69C00B01907 /* Info.plist in Resources */,
-				7D87900720A9C69C00B01907 /* PDFPreviewVC.storyboard in Resources */,
-				7D87900C20A9C69C00B01907 /* ChooseTypeView.xib in Resources */,
 				7D87900A20A9C69C00B01907 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,15 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D87900420A9C69C00B01907 /* PDFViewController.swift in Sources */,
 				7D87900220A9C69C00B01907 /* ViewController.swift in Sources */,
 				7D87900320A9C69C00B01907 /* clouseViewController.swift in Sources */,
-				7D87900B20A9C69C00B01907 /* ChooseTypeView.swift in Sources */,
-				7D87901020A9C69C00B01907 /* PDFPreviewVC.swift in Sources */,
-				7D87900E20A9C69C00B01907 /* myView.m in Sources */,
 				7D87900D20A9C69C00B01907 /* AppDelegate.swift in Sources */,
 				7D87900620A9C69C00B01907 /* PushViewController.swift in Sources */,
-				7D87900520A9C69C00B01907 /* CMInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P94799YN2Z;
 				INFOPLIST_FILE = "$(SRCROOT)/CTMusic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mike.com.swiftMethordTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P94799YN2Z;
 				INFOPLIST_FILE = "$(SRCROOT)/CTMusic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mike.com.swiftMethordTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
