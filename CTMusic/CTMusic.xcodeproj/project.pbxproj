@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03555C116A4ABA0CC4F47476 /* Pods_CTMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAD702F64B75866EBC4DD5D /* Pods_CTMusic.framework */; };
+		7D87900220A9C69C00B01907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FEF20A9C69C00B01907 /* ViewController.swift */; };
+		7D87900320A9C69C00B01907 /* clouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FF020A9C69C00B01907 /* clouseViewController.swift */; };
+		7D87900420A9C69C00B01907 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FF120A9C69C00B01907 /* PDFViewController.swift */; };
+		7D87900520A9C69C00B01907 /* CMInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FF220A9C69C00B01907 /* CMInputView.m */; };
+		7D87900620A9C69C00B01907 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FF320A9C69C00B01907 /* PushViewController.swift */; };
+		7D87900720A9C69C00B01907 /* PDFPreviewVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF520A9C69C00B01907 /* PDFPreviewVC.storyboard */; };
+		7D87900820A9C69C00B01907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF620A9C69C00B01907 /* Assets.xcassets */; };
+		7D87900920A9C69C00B01907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF720A9C69C00B01907 /* LaunchScreen.storyboard */; };
+		7D87900A20A9C69C00B01907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF920A9C69C00B01907 /* Main.storyboard */; };
+		7D87900B20A9C69C00B01907 /* ChooseTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FFB20A9C69C00B01907 /* ChooseTypeView.swift */; };
+		7D87900C20A9C69C00B01907 /* ChooseTypeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FFC20A9C69C00B01907 /* ChooseTypeView.xib */; };
+		7D87900D20A9C69C00B01907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FFD20A9C69C00B01907 /* AppDelegate.swift */; };
+		7D87900E20A9C69C00B01907 /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FFE20A9C69C00B01907 /* myView.m */; };
+		7D87900F20A9C69C00B01907 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D87900020A9C69C00B01907 /* Info.plist */; };
+		7D87901020A9C69C00B01907 /* PDFPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D87900120A9C69C00B01907 /* PDFPreviewVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		212C5C286C1424627A8C021B /* Pods-swiftMethordTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftMethordTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftMethordTest/Pods-swiftMethordTest.release.xcconfig"; sourceTree = "<group>"; };
+		7CADDEEA9340964C4517EB95 /* Pods-CTMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTMusic/Pods-CTMusic.release.xcconfig"; sourceTree = "<group>"; };
+		7D4B105D1EF77D8B009FA4F2 /* CTMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D878FEF20A9C69C00B01907 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D878FF020A9C69C00B01907 /* clouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = clouseViewController.swift; sourceTree = "<group>"; };
+		7D878FF120A9C69C00B01907 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		7D878FF220A9C69C00B01907 /* CMInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMInputView.m; sourceTree = "<group>"; };
+		7D878FF320A9C69C00B01907 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		7D878FF420A9C69C00B01907 /* myView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myView.h; sourceTree = "<group>"; };
+		7D878FF520A9C69C00B01907 /* PDFPreviewVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PDFPreviewVC.storyboard; sourceTree = "<group>"; };
+		7D878FF620A9C69C00B01907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D878FF820A9C69C00B01907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D878FFA20A9C69C00B01907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D878FFB20A9C69C00B01907 /* ChooseTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseTypeView.swift; sourceTree = "<group>"; };
+		7D878FFC20A9C69C00B01907 /* ChooseTypeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseTypeView.xib; sourceTree = "<group>"; };
+		7D878FFD20A9C69C00B01907 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D878FFE20A9C69C00B01907 /* myView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myView.m; sourceTree = "<group>"; };
+		7D878FFF20A9C69C00B01907 /* CMInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMInputView.h; sourceTree = "<group>"; };
+		7D87900020A9C69C00B01907 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D87900120A9C69C00B01907 /* PDFPreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPreviewVC.swift; sourceTree = "<group>"; };
+		8E727831D313907FE686D98C /* Pods_swiftMethordTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftMethordTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C3BB5D3734D014B2676AF6 /* Pods-CTMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTMusic/Pods-CTMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		EDAD702F64B75866EBC4DD5D /* Pods_CTMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA05A27340FA0ED19872DB47 /* Pods-swiftMethordTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftMethordTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftMethordTest/Pods-swiftMethordTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4B105A1EF77D8B009FA4F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03555C116A4ABA0CC4F47476 /* Pods_CTMusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30946411682898E51C706702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E727831D313907FE686D98C /* Pods_swiftMethordTest.framework */,
+				EDAD702F64B75866EBC4DD5D /* Pods_CTMusic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D4B10541EF77D8B009FA4F2 = {
+			isa = PBXGroup;
+			children = (
+				7D878FEE20A9C69C00B01907 /* CTMusic */,
+				7D4B105E1EF77D8B009FA4F2 /* Products */,
+				D9319221C9E3DD6528BBFE2B /* Pods */,
+				30946411682898E51C706702 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4B105E1EF77D8B009FA4F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4B105D1EF77D8B009FA4F2 /* CTMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D878FEE20A9C69C00B01907 /* CTMusic */ = {
+			isa = PBXGroup;
+			children = (
+				7D878FEF20A9C69C00B01907 /* ViewController.swift */,
+				7D878FF020A9C69C00B01907 /* clouseViewController.swift */,
+				7D878FF120A9C69C00B01907 /* PDFViewController.swift */,
+				7D878FF220A9C69C00B01907 /* CMInputView.m */,
+				7D878FF320A9C69C00B01907 /* PushViewController.swift */,
+				7D878FF420A9C69C00B01907 /* myView.h */,
+				7D878FF520A9C69C00B01907 /* PDFPreviewVC.storyboard */,
+				7D878FF620A9C69C00B01907 /* Assets.xcassets */,
+				7D878FF720A9C69C00B01907 /* LaunchScreen.storyboard */,
+				7D878FF920A9C69C00B01907 /* Main.storyboard */,
+				7D878FFB20A9C69C00B01907 /* ChooseTypeView.swift */,
+				7D878FFC20A9C69C00B01907 /* ChooseTypeView.xib */,
+				7D878FFD20A9C69C00B01907 /* AppDelegate.swift */,
+				7D878FFE20A9C69C00B01907 /* myView.m */,
+				7D878FFF20A9C69C00B01907 /* CMInputView.h */,
+				7D87900020A9C69C00B01907 /* Info.plist */,
+				7D87900120A9C69C00B01907 /* PDFPreviewVC.swift */,
+			);
+			path = CTMusic;
+			sourceTree = "<group>";
+		};
+		D9319221C9E3DD6528BBFE2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA05A27340FA0ED19872DB47 /* Pods-swiftMethordTest.debug.xcconfig */,
+				212C5C286C1424627A8C021B /* Pods-swiftMethordTest.release.xcconfig */,
+				E2C3BB5D3734D014B2676AF6 /* Pods-CTMusic.debug.xcconfig */,
+				7CADDEEA9340964C4517EB95 /* Pods-CTMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4B105C1EF77D8B009FA4F2 /* CTMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4B10851EF77D8B009FA4F2 /* Build configuration list for PBXNativeTarget "CTMusic" */;
+			buildPhases = (
+				57489B6962DE91FFC84C0526 /* [CP] Check Pods Manifest.lock */,
+				7D4B10591EF77D8B009FA4F2 /* Sources */,
+				7D4B105A1EF77D8B009FA4F2 /* Frameworks */,
+				7D4B105B1EF77D8B009FA4F2 /* Resources */,
+				CD87FC5539D4399FFF817239 /* [CP] Embed Pods Frameworks */,
+				E6FCB5F2EC143276948B73F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMusic;
+			productName = swiftMethordTest;
+			productReference = 7D4B105D1EF77D8B009FA4F2 /* CTMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4B10551EF77D8B009FA4F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "施胡炜";
+				TargetAttributes = {
+					7D4B105C1EF77D8B009FA4F2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = P94799YN2Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D4B10581EF77D8B009FA4F2 /* Build configuration list for PBXProject "CTMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D4B10541EF77D8B009FA4F2;
+			productRefGroup = 7D4B105E1EF77D8B009FA4F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4B105C1EF77D8B009FA4F2 /* CTMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4B105B1EF77D8B009FA4F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D87900920A9C69C00B01907 /* LaunchScreen.storyboard in Resources */,
+				7D87900820A9C69C00B01907 /* Assets.xcassets in Resources */,
+				7D87900F20A9C69C00B01907 /* Info.plist in Resources */,
+				7D87900720A9C69C00B01907 /* PDFPreviewVC.storyboard in Resources */,
+				7D87900C20A9C69C00B01907 /* ChooseTypeView.xib in Resources */,
+				7D87900A20A9C69C00B01907 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57489B6962DE91FFC84C0526 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD87FC5539D4399FFF817239 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CTMusic/Pods-CTMusic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/InputKit/InputKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Jelly/Jelly.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/swiftScan/swiftScan.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Jelly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/swiftScan.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTMusic/Pods-CTMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6FCB5F2EC143276948B73F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTMusic/Pods-CTMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4B10591EF77D8B009FA4F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D87900420A9C69C00B01907 /* PDFViewController.swift in Sources */,
+				7D87900220A9C69C00B01907 /* ViewController.swift in Sources */,
+				7D87900320A9C69C00B01907 /* clouseViewController.swift in Sources */,
+				7D87900B20A9C69C00B01907 /* ChooseTypeView.swift in Sources */,
+				7D87901020A9C69C00B01907 /* PDFPreviewVC.swift in Sources */,
+				7D87900E20A9C69C00B01907 /* myView.m in Sources */,
+				7D87900D20A9C69C00B01907 /* AppDelegate.swift in Sources */,
+				7D87900620A9C69C00B01907 /* PushViewController.swift in Sources */,
+				7D87900520A9C69C00B01907 /* CMInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D878FF720A9C69C00B01907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D878FF820A9C69C00B01907 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7D878FF920A9C69C00B01907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D878FFA20A9C69C00B01907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4B10831EF77D8B009FA4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D4B10841EF77D8B009FA4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4B10861EF77D8B009FA4F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C3BB5D3734D014B2676AF6 /* Pods-CTMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P94799YN2Z;
+				INFOPLIST_FILE = "$(SRCROOT)/CTMusic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.com.swiftMethordTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/shihuwei/Desktop/Swift_learning/swiftMethordTest/Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D4B10871EF77D8B009FA4F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CADDEEA9340964C4517EB95 /* Pods-CTMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P94799YN2Z;
+				INFOPLIST_FILE = "$(SRCROOT)/CTMusic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mike.com.swiftMethordTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/shihuwei/Desktop/Swift_learning/swiftMethordTest/Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4B10581EF77D8B009FA4F2 /* Build configuration list for PBXProject "CTMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4B10831EF77D8B009FA4F2 /* Debug */,
+				7D4B10841EF77D8B009FA4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4B10851EF77D8B009FA4F2 /* Build configuration list for PBXNativeTarget "CTMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4B10861EF77D8B009FA4F2 /* Debug */,
+				7D4B10871EF77D8B009FA4F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4B10551EF77D8B009FA4F2 /* Project object */;
+}

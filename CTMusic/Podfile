@@ -1,0 +1,28 @@
+platform :ios, '9.0'
+
+
+target 'CTMusic' do
+
+  use_frameworks!
+
+    pod 'Alamofire', '~> 4.4'
+    pod 'AlamofireNetworkActivityIndicator', '~> 2.1'
+    pod 'AlamofireImage', '~> 3.2'
+    pod 'SwiftyJSON', '~> 3.1'
+
+    pod 'ObjectMapper'
+    pod 'DZNEmptyDataSet'
+    pod 'FSCalendar'
+    pod 'SVProgressHUD'
+    pod 'IQKeyboardManagerSwift'
+    pod 'InputKit'
+    pod 'swiftScan', :git => 'https://github.com/CNKCQ/swiftScan.git', :branch => 'Swift3.0'
+    pod 'SDAutoLayout'
+    pod 'SwiftDate', '~> 4.3.0'
+    pod 'Jelly'
+
+    pod 'Moya/RxSwift'
+    pod 'RxSwift'
+    pod 'RxCocoa'
+
+end
