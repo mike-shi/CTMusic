@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		03555C116A4ABA0CC4F47476 /* Pods_CTMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAD702F64B75866EBC4DD5D /* Pods_CTMusic.framework */; };
+		7D20D14C20A9D2A400241276 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20D14720A9D2A400241276 /* UserApi.swift */; };
+		7D20D14D20A9D2A400241276 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20D14820A9D2A400241276 /* Error.swift */; };
+		7D20D14E20A9D2A400241276 /* NetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20D14920A9D2A400241276 /* NetError.swift */; };
+		7D20D14F20A9D2A400241276 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20D14A20A9D2A400241276 /* Request.swift */; };
+		7D20D15020A9D2A400241276 /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20D14B20A9D2A400241276 /* Observable+ObjectMapper.swift */; };
 		7D87900220A9C69C00B01907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D878FEF20A9C69C00B01907 /* ViewController.swift */; };
 		7D87900820A9C69C00B01907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF620A9C69C00B01907 /* Assets.xcassets */; };
 		7D87900920A9C69C00B01907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D878FF720A9C69C00B01907 /* LaunchScreen.storyboard */; };
@@ -19,6 +24,11 @@
 /* Begin PBXFileReference section */
 		212C5C286C1424627A8C021B /* Pods-swiftMethordTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftMethordTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftMethordTest/Pods-swiftMethordTest.release.xcconfig"; sourceTree = "<group>"; };
 		7CADDEEA9340964C4517EB95 /* Pods-CTMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTMusic/Pods-CTMusic.release.xcconfig"; sourceTree = "<group>"; };
+		7D20D14720A9D2A400241276 /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		7D20D14820A9D2A400241276 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		7D20D14920A9D2A400241276 /* NetError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetError.swift; sourceTree = "<group>"; };
+		7D20D14A20A9D2A400241276 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		7D20D14B20A9D2A400241276 /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
 		7D4B105D1EF77D8B009FA4F2 /* CTMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D878FEF20A9C69C00B01907 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D878FF620A9C69C00B01907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +63,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7D20D14620A9D2A400241276 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D20D14720A9D2A400241276 /* UserApi.swift */,
+				7D20D14820A9D2A400241276 /* Error.swift */,
+				7D20D14920A9D2A400241276 /* NetError.swift */,
+				7D20D14A20A9D2A400241276 /* Request.swift */,
+				7D20D14B20A9D2A400241276 /* Observable+ObjectMapper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		7D4B10541EF77D8B009FA4F2 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +96,7 @@
 		7D878FEE20A9C69C00B01907 /* CTMusic */ = {
 			isa = PBXGroup;
 			children = (
+				7D20D14620A9D2A400241276 /* Services */,
 				7D878FEF20A9C69C00B01907 /* ViewController.swift */,
 				7D878FF620A9C69C00B01907 /* Assets.xcassets */,
 				7D878FF720A9C69C00B01907 /* LaunchScreen.storyboard */,
@@ -260,6 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D20D14D20A9D2A400241276 /* Error.swift in Sources */,
+				7D20D14F20A9D2A400241276 /* Request.swift in Sources */,
+				7D20D14C20A9D2A400241276 /* UserApi.swift in Sources */,
+				7D20D15020A9D2A400241276 /* Observable+ObjectMapper.swift in Sources */,
+				7D20D14E20A9D2A400241276 /* NetError.swift in Sources */,
 				7D87900220A9C69C00B01907 /* ViewController.swift in Sources */,
 				7D87900D20A9C69C00B01907 /* AppDelegate.swift in Sources */,
 			);
